@@ -1,0 +1,39 @@
+{
+	"1": {
+		"Javascript": "Javascript, abreviado como JS, es un lenguaje de programación interpretado multiparadigma, debilmente tipado, dinamico e imperativo. Este es utilizado principalmente en el lado del cliente, dentro de los navegadores generando interactividad y permitiendo mejorar la experiencia de los usuarios. Tambien tiene su uso en el lado del servidor, conocido como Server-side Javascript o SSJS.",
+		"Node.js": "Node.js es un entorno en tiempo de ejecución multiplataforma para la capa del servidor basado en Javascript. Al permitirnos crear este entorno controlado por eventos nos abre la posibilidad de diseñar y crear aplicaciones escalables, con posibilidad de establecer y gestionar multiples conexiones al mismo tiempo. Gracias a esta caracteristica no tenemos que preocuparnos por el bloqueo de procesos.",
+		"Frontend": "Cuando hablamos de frontend estamos hablando de la parte de un programa a la cual los usuarios pueden acceder directamente. Esto incluye todas las tecnologias de diseño y desarrollo web que corren en el navegador y que se encargan de la interactividad con los usuarios. Los desarrolladores frontend son aquellos que crean la parte visual de un sitio web.",
+		"Backend": "Cuando hablamos de backend estamos hablando de la parte de un programa la cual los usuarios no pueden ver, el lado del servidor, esta capa es la que permite el acceso a los datos de un software. Está capa cuenta con la logica de la aplicacion que maneja dichos datos."
+	},
+	"2": {
+		"valores primitivos": {
+			"Boolean": "El valor booleano representa un entidad logica que puede admitir los valores verdadero o falso.",
+			"Null": "Este valor solo posee el valor null, el cual indica nulo.",
+			"Undefined": "Este valor se encuentra cuando a una variable no se le asigna un valor.",
+			"Number": "El valor number es un valor en formato binario de 64 bits de doble precision IEEE 754, permite representar numeros de coma flotante. Ademas este valor posee tres valores simbolicos, +Infinity, -Infinity y NaN, que significa Not a Number o traducido al español No es un numero.",
+			"String": "El valor de tipo String representa datos textuales. Es un conjunto de 'elementos' de valores enteros sin signo de 16 bits.",
+			"Symbol": "Es un valor primitivo unico e inmutable y se puede utilizar como clave de propiedad de objeto.",
+			"BigInt": "Cabe destacar que el tipo BigInt es un valor primitivo numerico que puede representar numeros enteros con precision arbitraria. Con BigInt es posible almacenar y operar de forma segura con numeros enteros muy grandes incluso mas alla del limite seguro de enteros que admite Number."
+		},
+
+		"Valores complejos": {
+			"Objetos": "En ciencias de la computación un objeto es un valor en memoria al que posiblemente hace referencia a un identificador. En Javascript a los objetos los podemos ver como una coleccion de propiedades. Esta se inicia con un conjunto limitado de propiedades que luego puede ser expandido, agregando propiedades, o reducido, eliminando propiedades. Los valores de propiedad que admite son valores de cualquier tipo, incluso otros objetos, lo cual permite estructuras de datos complejas.",
+			"Function": "Las function o funciones se pueden considerar objetos objetos regulares con la habilidad de ser llamadas luego. Estas pueden ser guardadas en variables.",
+			"Array": "Los array o arreglos son objetos regulares a los cuales se puede considerar una coleccion de datos, los datos contenidos dentro de esta coleccion pueden ser de tipo Number, String, Object, etc."
+		}
+	},
+	"3": {
+		"package.json": "El archivo package.json contiene los metadatos de un proyecto, estos incluyen la descripción, autor, dependencias, scripts y licencia.",
+		"dependencia": "Una dependencia es un paquete con una complejidad variable el cual ha sido instalado para aprovechar su funcion dentro de un proyecto, al no encontrarse presente o tener conflictos de version debido a actualizaciones puede hacer que el proyecto no funcione. Por eso es importante la correcta configuracion de versionado en los proyectos.",
+		"dependencia de desarrollo": "Una dependencia de desarrollo es similar a una dependencia normal, solo que es exclusiva para la etapa de desarrollo de un proyecto, por ejemplo paquetes que permiten testear o probar un proyecto a la par que se va desarrollando."
+	},
+	"4": {
+		"map": "El metodo array.map permite crear un nuevo array basandonos en una función que se ejecutara por cada elemento del array",
+		"splice": "El metodo splice nos permite eliminar elementos de un array y reducir su largo, no solo eliminar la referencia dentro del array. Por ejemplo, dado el array = ['agua', 'jugo', 'cerveza', 'gaseosa'], si quisieramos remover 'cerveza' y que nuestro array tenga un largo de 3, podriamos utilizar array.splice(2, 1), esto nos devuelve el array = ['agua', 'jugo', 'gaseosa']. Asi mismo cuando ejecutamos splice sobre un array pero guardamos su valor en una constante, nos devuelve un segundo array con los elementos removidos. Otra de sus grandes capacidades es la de insertar elementos en un array, si al segundo argumento de splice le indicamos 0, no eliminará nada, luego podremos agregar los argumentos que deseamos insertar en el array. Por ejemplo, sobre el array anterior ejecutamos array.splice(1,0,'chocolatada') nos permitira ver que array = ['agua','chocolatada', 'jugo', 'gaseosa'].",
+		"pop": "El metodo array.pop nos permite extraer el ultimo elemento del array."
+	},
+	"5": {
+		"Asincronismo": "Asincronismo en programacion se refiere a la ocurrencia de eventos independientes del flujo principal de un programa y las formas en que tratamos con esto. Esto puede ocurrir por eventos externos, como acciones que ocurrieron a la vez que la ejecucion del programa, sin que este se bloquee esperando resultados. Una forma comun de lidiar con la asincronia es crear subrutinas, asi sean metodos o funciones, que devuelvan un objeto, comunmente llamado promesa, este representa los eventos que estan ocurriendo. ",
+		"Asincronismo en Javascript": "Javascript maneja el asincronismo implementando promesas, esto le indica que el resultado de una funcion o metodo podrá estar disponible inmediatamente, en el futuro o nunca. Esto logra que el flujo principal del programa no se estanque en caso de que haya un bloque de codigo el cual deba esperar un resultado."
+	}
+}

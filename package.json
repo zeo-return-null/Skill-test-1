@@ -1,0 +1,19 @@
+{
+  "name": "skill-test-1",
+  "version": "0.0.1",
+  "description": "Primer desafío a realizar en el Skill Factory de Avalith",
+  "main": "src/app.js",
+  "scripts": {
+	"node": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Sepulveda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.18"
+  }
+}
